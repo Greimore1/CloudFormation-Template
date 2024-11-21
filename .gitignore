@@ -1,0 +1,21 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# AWS-specific files
+*.tfstate
+*.tfstate.*
+.aws-sam/
+
+# Credentials and sensitive files
+*.pem
+*.key
+aws-credentials
+
+# Logs
+*.log
+
+# IDE-specific files
+.vscode/
+.idea/
